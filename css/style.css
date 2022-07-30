@@ -30,6 +30,12 @@
 	color: #626364;
 }
 
+.page-title {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+	color: #656667;
+}
+
 .page-container {
 	max-width: 600px;
 	width: 100%;
