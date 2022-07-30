@@ -1,0 +1,46 @@
+.primary-color {
+	color:#61AEAE;
+}
+
+.nav {
+	position: absolute;
+	right: -150px;
+	top: 45px;
+}
+
+.nav-deco {
+	display: inline-block;
+	width: 20px;
+	height: 8px;
+	background-color: #999A9B;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.content {
+	padding: 55px;
+}
+
+.header {
+	padding: 65px 15px;
+}
+
+.title {
+	font-size: 2rem;
+	color: #626364;
+}
+
+.page-container {
+	max-width: 600px;
+	width: 100%;
+}
+
+.content-container {
+	border-radius: 20px;
+	background-color: white;
+}
+
+.section {
+	margin-bottom: 155px;
+	position: relative;
+}
