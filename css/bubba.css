@@ -1,0 +1,11 @@
+figure.effect-bubba { background: #3b8c8c; }
+
+figure.effect-bubba img {
+	opacity: 1;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s
+}
+
+figure.effect-bubba:hover img {
+	opacity: 0.4;
+}
