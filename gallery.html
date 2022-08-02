@@ -6,6 +6,8 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bubba.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
@@ -46,12 +48,77 @@
 					</ul>
 				</nav>
 				<div class="content-container">
-					<figure class="mb-0">
-					</figure>
 					<div class="content">
 						<h2 class="page-title">Art gallery</h2>
 						<p class="mb-4">Soon to come...
 						</p>
+						<div class="container-fluid">
+							<div class="row gallery" id="Gallery">
+								<div class="col-sm-6 gallery-item">
+								<figure class="effect-bubba">
+									<img src="img/1.jpeg" alt="Gallery item" class="img-fluid" />
+									<figcaption>
+									<h2>Fresh <span>Bubba</span></h2>
+									<p>Bubba likes to appear out of thin air.</p>
+									<a href="img/gallery/gallery-img-01.jpg"></a>
+								  </figcaption>
+								</figure>
+							  </div>
+							  <div class="col-sm-6 gallery-item">
+								<figure class="effect-bubba">
+								  <img src="img/gallery/gallery-img-02.jpg" alt="Gallery item" class="img-fluid" />
+								  <figcaption>
+									<h2>Fresh <span>Bubba</span></h2>
+									<p>Bubba likes to appear out of thin air.</p>
+									<a href="img/gallery/gallery-img-02.jpg">View more</a>
+								  </figcaption>
+								</figure>
+							  </div>
+							  <div class="col-sm-6 gallery-item">
+								<figure class="effect-bubba">
+								  <img src="img/gallery/gallery-img-03.jpg" alt="Gallery item" class="img-fluid" />
+								  <figcaption>
+									<h2>Fresh <span>Bubba</span></h2>
+									<p>Bubba likes to appear out of thin air.</p>
+									<a href="img/gallery/gallery-img-03.jpg">View more</a>
+								  </figcaption>
+								</figure>
+							  </div>
+							  <div class="col-sm-6 gallery-item">
+								<figure class="effect-bubba">
+								  <img src="img/gallery/gallery-img-04.jpg" alt="Gallery item" class="img-fluid" />
+								  <figcaption>
+									<h2>Fresh <span>Bubba</span></h2>
+									<p>Bubba likes to appear out of thin air.</p>
+									<a href="img/gallery/gallery-img-04.jpg">View more</a>
+								  </figcaption>
+								</figure>
+							  </div>
+							  <div class="col-sm-6 gallery-item">
+								<figure class="effect-bubba">
+								  <img src="img/gallery/gallery-img-05.jpg" alt="Gallery item" class="img-fluid" />
+								  <figcaption>
+									<h2>Fresh <span>Bubba</span></h2>
+									<p>Bubba likes to appear out of thin air.</p>
+									<a href="img/gallery/gallery-img-05.jpg">View more</a>
+								  </figcaption>
+								</figure>
+							  </div>
+							  <div class="col-sm-6 gallery-item">
+								<figure class="effect-bubba">
+								  <img src="img/gallery/gallery-img-06.jpg" alt="Gallery item" class="img-fluid" />
+								  <figcaption>
+									<h2>Fresh <span>Bubba</span></h2>
+									<p>Bubba likes to appear out of thin air.</p>
+									<a href="img/gallery/gallery-img-06.jpg">View more</a>
+								  </figcaption>
+								</figure>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
 					</div>
 				</div>
 			</section>
@@ -59,5 +126,20 @@
 				<span>designed by Anna Rohmann</span>
 			</footer>
 		</div>
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script>
+		  $(document).ready(function () {
+			// Magnific Pop up
+			// https://dimsemenov.com/plugins/magnific-popup/
+			$('.tm-gallery').magnificPopup({
+			  delegate: 'a', // child items selector, by clicking on it popup will open
+			  type: 'image',
+			  gallery: {
+				enabled: true
+			  },
+			});
+		  });
+		</script>
 	</body>
 </html>
